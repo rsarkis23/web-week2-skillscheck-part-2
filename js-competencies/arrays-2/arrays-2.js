@@ -39,8 +39,9 @@ let cutItOut = (arr) =>{
 
 let changeName = (arr) =>{
     for (let i =0; i < arr.length; i++ ){
-        if (arr[i] == "Tolken"){
-            arr[i] = "Tolkein"
-        }return arr
+        if (arr[i] == "Tolkn"){
+            arr[i] = "Tolkien"
+            return arr
+        }
     }
 }
