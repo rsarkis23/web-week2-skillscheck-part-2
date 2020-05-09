@@ -11,7 +11,12 @@
 var sunsetColors = ["brown", "purple", "pink", "red", "orange", "yellow"]
 
 //Code here
-
+let copiedSunsetColors = []
+let sunset = (sunsetColors) =>{
+    for (let i = 0; i < sunsetColors.length; i++){
+        copiedSunsetColors.push(sunsetColors[i])
+    }return copiedSunsetColors  
+} 
 
 //////////////////PROBLEM 2////////////////////
 
@@ -22,7 +27,11 @@ var sunsetColors = ["brown", "purple", "pink", "red", "orange", "yellow"]
 var sunriseColors = ["yellow", "orange", "red", "pink", "purple", "blue"]
 
 //Code here
-
+let copiedSunrise = []
+let sunrise = (sunsetColors) =>{
+    copiedSunrise = sunsetColors.slice()
+    return copiedSunrise
+}
 
 //////////////////PROBLEM 3////////////////////
 
