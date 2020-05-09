@@ -10,7 +10,7 @@
 //use the built-in array method .map
   
   //Code here
-
+  let dragonMapper = (arr) => arr.map(e => e + "...here be dragons")
 
 
 //////////////////PROBLEM 2////////////////////
@@ -21,7 +21,7 @@
 //cookieLoversOnly should return the filtered array.
   
   //Code here
-
+let cookieLoversOnly = (arr) => arr.filter(e=> e.favoriteCookie)
 
 //////////////////PROBLEM 3////////////////////
 
