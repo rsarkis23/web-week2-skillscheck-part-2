@@ -10,7 +10,11 @@
 //addMoreDucks should return the array.
 
 //Code here
-
+let addMoreDucks = (arr) =>{
+    if (arr.length > 4){
+        arr[2] = '42 ducks'
+    }return arr
+}
 
 //////////////////PROBLEM 2////////////////////
 
@@ -19,7 +23,11 @@
 //the 3rd element of the array. cutItOut should return the array.
 
 //Code here
-
+let cutItOut = (arr) =>{
+    if (arr.length > 4){
+        arr.splice(2, 1)
+    }return arr
+}
 
 //////////////////PROBLEM 3////////////////////
 
@@ -29,3 +37,10 @@
 
 //Code here
 
+let changeName = (arr) =>{
+    for (let i =0; i < arr.length; i++ ){
+        if (arr[i] == "Tolken"){
+            arr[i] = "Tolkein"
+        }return arr
+    }
+}
